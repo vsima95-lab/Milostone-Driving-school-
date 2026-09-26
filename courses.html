@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses and prices | Milestone Driving School</title>
+  <meta name="description" content="Driving lesson packages for beginners, test candidates and returning drivers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..900&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
+  <script>try{var t=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="Milestone Driving School home">
+      <span class="logo-mark" aria-hidden="true"></span>Milestone
+    </a>
+    <div class="bar-end">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="courses.html" aria-current="page">Courses</a>
+      <a href="fleet.html">Fleet</a>
+      <a href="business.html">Business</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+        <a class="btn btn-small" href="contact.html">Book a lesson</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="wrap"><h1><span class="grad-text">Lessons and prices</span></h1><p>Simple packages with everything you need. No hidden fees.</p></div>
+  <div class="road" aria-hidden="true"></div>
+</section>
+
+<!-- MAIN PACKAGES -->
+<!-- Same three packages as on index.html - keep names, prices and hours in sync on both pages.
+     Package names here must also match the dropdown options on contact.html -->
+<section class="section">
+  <div class="wrap">
+    <div class="cards three">
+      <article class="plan"><h3>Starter</h3><p class="price">£290 <span>10 hours</span></p>
+        <ul><li>Car controls and moving off</li><li>Junctions and roundabouts</li><li>Written progress notes</li></ul>
+        <a class="btn btn-ghost btn-block" href="contact.html">Choose Starter</a></article>
+      <article class="plan featured"><span class="badge">Most popular</span><h3>Test Ready</h3><p class="price">£540 <span>20 hours</span></p>
+        <ul><li>Everything in Starter</li><li>Dual carriageways and night driving</li><li>Two mock tests</li><li>Test-day car and warm-up</li></ul>
+        <a class="btn btn-block" href="contact.html">Choose Test Ready</a></article>
+      <article class="plan"><h3>Refresher</h3><p class="price">£30 <span>per hour</span></p>
+        <ul><li>For licensed drivers back on the road</li><li>Motorway and city practice</li><li>Flexible times, no minimum</li></ul>
+        <a class="btn btn-ghost btn-block" href="contact.html">Choose Refresher</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<!-- Must stay consistent with the three packages above - if you add, rename or remove a package,
+     update this table too (including the header, the "hl" highlight column, and every row) -->
+<section class="section tint">
+  <div class="wrap">
+    <div class="section-head"><h2>Compare packages</h2></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">What you get</th><th scope="col">Starter</th><th scope="col" class="hl">Test Ready</th><th scope="col">Refresher</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Lesson hours</th><td>10</td><td class="hl">20</td><td>Any</td></tr>
+          <tr><th scope="row">Pick-up from home or work</th><td>Yes</td><td class="hl">Yes</td><td>Yes</td></tr>
+          <tr><th scope="row">Progress log</th><td>Yes</td><td class="hl">Yes</td><td>No</td></tr>
+          <tr><th scope="row">Mock tests</th><td>No</td><td class="hl">2</td><td>No</td></tr>
+          <tr><th scope="row">Test-day car</th><td>£70</td><td class="hl">Included</td><td>£70</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ADD-ONS -->
+<!-- Replace with your own extras and prices, or remove cards you don't offer -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Extras</h2><p>Add these to any package.</p></div>
+    <div class="cards three">
+      <article class="card"><h3>Theory test coaching</h3><p>Two small-group sessions with practice questions and hazard clips.</p><p class="price-sm">£60</p></article>
+      <article class="card"><h3>Intensive week</h3><p>Ten hours in five days, then your test. Limited places each month.</p><p class="price-sm">£620</p></article>
+      <article class="card"><h3>Motorway lesson</h3><p>A two-hour lesson to build confidence at higher speeds.</p><p class="price-sm">£75</p></article>
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap center-block">
+    <h2>Ready for your first lesson?</h2>
+    <p>Leave your number and we will call you back within one working day.</p>
+    <a class="btn" href="contact.html">Book a free intro call</a>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span>Milestone</a>
+      <p>Friendly, patient driving lessons since 2008.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h4>Explore</h4>
+      <a href="courses.html">Courses and prices</a>
+      <a href="fleet.html">Our fleet</a>
+      <a href="business.html">For businesses</a>
+      <a href="about.html">About us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:+440000000000">+44 000 000 0000</a>
+      <a href="mailto:hello@milestone-driving.example">hello@milestone-driving.example</a>
+      <span>Mon to Sat, 8:00 to 20:00</span>
+    </div>
+  </div>
+  <div class="wrap copy">
+    <p>&copy; 2026 Milestone Driving School. All rights reserved.</p>
+    <p><a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">Cookies</a></p>
+  </div>
+</footer>
+<script src="script.js?v=3"></script>
+</body>
+</html>

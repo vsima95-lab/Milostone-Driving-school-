@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Milestone Driving School | Learn to drive with confidence</title>
+  <!-- Replace the <title> and description below with your own school name and a one-sentence summary -->
+  <meta name="description" content="Friendly, patient driving lessons for beginners, nervous drivers and anyone who wants to pass first time.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..900&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
+  <script>try{var t=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <!-- "Milestone" is the school name shown in the logo. It also appears in the footer below and on every other page - replace it everywhere it appears -->
+    <a class="logo" href="index.html" aria-label="Milestone Driving School home">
+      <span class="logo-mark" aria-hidden="true"></span>Milestone
+    </a>
+    <div class="bar-end">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <nav class="nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="fleet.html">Fleet</a>
+      <a href="business.html">Business</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+        <a class="btn btn-small" href="contact.html">Book a lesson</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <!-- Replace with your own headline -->
+      <h1>Pass your test.<br><span class="grad-text">Drive for life.</span></h1>
+      <!-- Replace with your own short pitch, 1-2 sentences -->
+      <p class="lead">Calm, one-to-one lessons with instructors who explain things clearly. Start from zero, or pick up where you left off.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#book">Book a free intro call</a>
+        <a class="btn btn-ghost" href="courses.html">See lesson packages</a>
+      </div>
+      <!-- Replace with your own three key selling points -->
+      <ul class="ticks">
+        <li>Dual-control cars</li>
+        <li>Pick-up from home or work</li>
+        <li>Automatic and manual</li>
+      </ul>
+    </div>
+
+    <aside class="quote-card" aria-label="Quick price check">
+      <h2>Get a quick quote</h2>
+      <!-- IMPORTANT: action="#" does not send this form anywhere. Point it to your booking system, email service (e.g. Formspree) or backend before going live -->
+      <form class="form" action="#" method="post">
+        <label>Your name
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>Phone or email
+          <input type="text" name="contact" required>
+        </label>
+        <label>Gearbox
+          <select name="gearbox">
+            <option>Manual</option>
+            <option>Automatic</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>Experience
+          <select name="level">
+            <option>Complete beginner</option>
+            <option>Some lessons already</option>
+            <option>Ready for my test</option>
+          </select>
+        </label>
+        <button class="btn btn-block" type="submit">Send request</button>
+        <p class="fine">We reply within one working day.</p>
+      </form>
+    </aside>
+  </div>
+  <div class="road" aria-hidden="true"></div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust">
+  <!-- Replace with your real statistics -->
+  <div class="wrap trust-grid">
+    <p><strong>92%</strong> of learners pass within 3 attempts</p>
+    <p><strong>4.9 / 5</strong> average from 640 reviews</p>
+    <p><strong>18 years</strong> teaching in the city</p>
+    <p><strong>Fully licensed</strong> and insured instructors</p>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="section" id="courses">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Lesson packages</h2>
+      <p>Simple prices, no hidden fees. Every package includes pick-up, a progress log and a mock test.</p>
+    </div>
+
+    <!-- Replace prices, hours and included items in all three packages below with your own -->
+    <div class="cards three">
+      <article class="plan">
+        <h3>Starter</h3>
+        <p class="price">£290 <span>10 hours</span></p>
+        <ul>
+          <li>Car controls and moving off</li>
+          <li>Junctions and roundabouts</li>
+          <li>Written progress notes</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="#book">Choose Starter</a>
+      </article>
+
+      <article class="plan featured">
+        <span class="badge">Most popular</span>
+        <h3>Test Ready</h3>
+        <p class="price">£540 <span>20 hours</span></p>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Dual carriageways and night driving</li>
+          <li>Two mock tests</li>
+          <li>Test-day car and warm-up lesson</li>
+        </ul>
+        <a class="btn btn-block" href="#book">Choose Test Ready</a>
+      </article>
+
+      <article class="plan">
+        <h3>Refresher</h3>
+        <p class="price">£30 <span>per hour</span></p>
+        <ul>
+          <li>For licensed drivers back on the road</li>
+          <li>Motorway and city practice</li>
+          <li>Flexible times, no minimum</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="#book">Choose Refresher</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section dark" id="process">
+  <div class="wrap split">
+    <div class="section-head left">
+      <h2>From first lesson to licence</h2>
+      <p>Four steps, and we guide you through each one.</p>
+    </div>
+    <!-- Generic process steps - edit wording only if your process is different -->
+    <ol class="steps">
+      <li>
+        <h3>Book an intro call</h3>
+        <p>Tell us your experience and goals. We match you with the right instructor and car.</p>
+      </li>
+      <li>
+        <h3>Learn the basics</h3>
+        <p>Quiet roads first. You build control before facing traffic.</p>
+      </li>
+      <li>
+        <h3>Practise real routes</h3>
+        <p>We drive the roads used on test day until they feel familiar.</p>
+      </li>
+      <li>
+        <h3>Take your test</h3>
+        <p>We collect you, warm you up and wait for you afterwards.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- INSTRUCTORS -->
+<section class="section" id="instructors">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Meet your instructors</h2>
+      <p>Patient, qualified and checked. Tell us if you prefer a certain instructor.</p>
+    </div>
+    <!-- Replace names, years of experience and descriptions with your real instructors -->
+    <div class="cards three">
+      <article class="person">
+        <img class="photo" src="images/Novak.png" alt="Daniel Novak, driving instructor">
+        <h3>Daniel Novak</h3>
+        <p class="role">Manual and automatic, 12 years</p>
+        <p>Great with nervous learners. Explains one thing at a time.</p>
+      </article>
+      <article class="person">
+        <img class="photo" src="images/Bennett.png" alt="Sarah Bennett, driving instructor">
+        <h3>Sarah Bennett</h3>
+        <p class="role">Automatic and test prep, 8 years</p>
+        <p>Focuses on test routes, mirrors and clear decision making.</p>
+      </article>
+      <article class="person">
+        <img class="photo" src="images/Svoboda.png" alt="Marek Svoboda, driving instructor">
+        <h3>Marek Svoboda</h3>
+        <p class="role">Refresher and motorway, 15 years</p>
+        <p>Ideal for adults returning to driving or moving to a new country.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section tint" id="reviews">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What learners say</h2>
+    </div>
+    <!-- Replace with your own real reviews and customer names -->
+    <div class="cards three">
+      <blockquote class="review">
+        <p>I was terrified of driving. Daniel never rushed me, and I passed first time after 22 hours.</p>
+        <footer>Emma R.</footer>
+      </blockquote>
+      <blockquote class="review">
+        <p>The mock tests were harder than the real thing. I walked in calm and it showed.</p>
+        <footer>Jakub P.</footer>
+      </blockquote>
+      <blockquote class="review">
+        <p>Booking was easy and my instructor picked me up from work every week. Highly recommend.</p>
+        <footer>Aisha K.</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap narrow">
+    <div class="section-head left">
+      <h2>Common questions</h2>
+    </div>
+    <!-- Edit questions and answers to match your own policies (cancellation window, test car fee, areas covered, etc.) -->
+    <details>
+      <summary>How many lessons will I need?</summary>
+      <p>It depends on your starting point. Most learners need 30 to 45 hours in total, including private practice.</p>
+    </details>
+    <details>
+      <summary>Can I cancel or move a lesson?</summary>
+      <p>Yes. Free changes up to 24 hours before. After that we charge half the lesson price.</p>
+    </details>
+    <details>
+      <summary>Do you provide a car for the test?</summary>
+      <p>Yes. It is included in the Test Ready package and costs £70 with other packages.</p>
+    </details>
+    <details>
+      <summary>Which areas do you cover?</summary>
+      <p>The whole city and surrounding suburbs. Ask us if you are not sure about your postcode.</p>
+    </details>
+  </div>
+</section>
+
+<!-- BOOKING CTA -->
+<section class="cta" id="book">
+  <div class="wrap cta-grid">
+    <div>
+      <h2>Ready for your first lesson?</h2>
+      <p>Call us, send a message or leave your number. We will find a time that works.</p>
+      <!-- Replace phone number, email, address and opening hours below. The same details also appear in the footer - update both places -->
+      <ul class="contact">
+        <li><a href="tel:+440000000000">+44 000 000 0000</a></li>
+        <li><a href="mailto:hello@milestone-driving.example">hello@milestone-driving.example</a></li>
+        <li>12 High Street, Your City</li>
+        <li>Mon to Sat, 8:00 to 20:00</li>
+      </ul>
+    </div>
+    <!-- IMPORTANT: action="#" does not send this form anywhere - point it to your form service or backend before going live -->
+    <form class="form on-dark" action="#" method="post">
+      <label>Full name
+        <input type="text" name="fullname" autocomplete="name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>How can we help?
+        <textarea name="message" rows="4"></textarea>
+      </label>
+      <button class="btn btn-block" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <!-- School name and founding year - keep in sync with the header logo above -->
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span>Milestone</a>
+      <p>Friendly, patient driving lessons since 2008.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h4>Explore</h4>
+      <a href="courses.html">Courses and prices</a>
+      <a href="fleet.html">Our fleet</a>
+      <a href="business.html">For businesses</a>
+      <a href="about.html">About us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div>
+      <!-- Replace phone number, email and opening hours - same details as the booking section above -->
+      <h4>Contact</h4>
+      <a href="tel:+440000000000">+44 000 000 0000</a>
+      <a href="mailto:hello@milestone-driving.example">hello@milestone-driving.example</a>
+      <span>Mon to Sat, 8:00 to 20:00</span>
+    </div>
+  </div>
+  <div class="wrap copy">
+    <!-- Update copyright year and school name -->
+    <p>&copy; 2026 Milestone Driving School. All rights reserved.</p>
+    <!-- These links currently go nowhere (href="#") - point them to real Privacy, Terms and Cookies pages -->
+    <p><a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">Cookies</a></p>
+  </div>
+</footer>
+
+<script src="script.js?v=3"></script>
+</body>
+</html>
